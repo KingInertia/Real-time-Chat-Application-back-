@@ -14,7 +14,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 
-// Настройка CORS
+// Настройка CORs
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowSpecificOrigins",
