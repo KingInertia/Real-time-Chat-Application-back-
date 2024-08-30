@@ -1,4 +1,4 @@
-# Real-time Chat Application ## Running the Backend
+# Real-time Chat Application Running the Backend
 
 To run the backend of your application, follow these steps:
 
